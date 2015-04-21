@@ -71,4 +71,4 @@ class FnafsController < ApplicationController
     def fnaf_params
       params.require(:fnaf).permit(:name, :picture, :species, :gender, :first_game, :second_game, :third_game)
     end
-end
+  end
